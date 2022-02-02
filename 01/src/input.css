@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container {
+    @apply max-w-screen-xl px-4 mx-auto;
+}
+
+.content-block {
+    @apply py-16
+}
+
+.intro-text::first-letter {
+    font-size: 3em;
+    margin: 0 .2em 0 0;
+    font-weight: 300;
+  }
+
+  .bg-white-gray {
+    background: linear-gradient(rgb(255, 255, 255) 0px, rgb(255, 255, 255) 50%, rgb(38, 38, 38) 50%, rgb(38, 38, 38) 100%);
+  }
+
+  .bg-gray {
+      background-color: rgb(38, 38, 38);
+  }
